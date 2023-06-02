@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty care</title>
+    <style>
+      .frm {
+        border: 3px solid;
+        color: white;
+        width: 400px;
+        margin: auto;
+        padding: 25px;
+        background-color: black;
+      }
+      .hd {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        background-color: cadetblue;
+        margin: auto;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 35px;
+      }
+      td {
+        border: 2px solid;
+        height: 15px;
+        color: rgb(191, 71, 27);
+      }
+      .intext {
+        background-color: black;
+        border: 3px solid;
+        color: rgb(70, 12, 124);
+        border-color: rgb(143, 58, 27);
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      input::placeholder {
+        color: rgb(79, 14, 140);
+        font-weight: bold;
+      }
+      .sdhd {
+        color: white;
+        font-weight: bold;
+        border-color: rgb(133, 48, 17);
+        padding: 10px;
+      }
+      .lft {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(53, 87, 88); margin-top: 39px">
+    <form action="" class="frm">
+      <table style="margin: auto">
+        <h2 class="hd">Beauty Care Center - Appointment</h2>
+        <tr>
+          <td class="sdhd">Name*</td>
+          <td class="lft">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder=" Enter your name"
+              class="intext"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Gender*</td>
+          <td class="lft">
+            <input type="radio" name="a" id="1" />
+            <label for="1" style="color: white">Male</label>
+            <input type="radio" name="a" id="2" />
+            <label for="2" style="color: white">Female</label>
+            <input type="radio" name="a" id="3" />
+            <label for="3" style="color: white">Others</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">E-mail address</td>
+          <td class="lft">
+            <input
+              type="email"
+              name=""
+              id=""
+              class="intext"
+              placeholder="Example:abc@gmail.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Mobile NO*</td>
+          <td class="lft">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder=" Enter your mobile no"
+              class="intext"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Services*</td>
+          <td class="lft">
+            <input type="text" name="" id="" class="intext" />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Date*</td>
+          <td class="lft">
+            <input type="date" name="" id="" class="intext" />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Time*</td>
+          <td class="lft">
+            <input type="time" name="" id="" class="intext" />
+          </td>
+        </tr>
+        <tr>
+          <td class="sdhd">Address</td>
+          <td class="lft">
+            <textarea
+              name=""
+              id=""
+              cols="20"
+              rows="5"
+              placeholder=" enter your address"
+              style="color: rgb(66, 14, 115)"
+              class="intext"
+            ></textarea>
+            <br />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input type="checkbox" name="" id="5" />
+      <label for="5"
+        ><a href="#I agree to terms of service and policy"
+          >I agree to terms of service and policy</a
+        >
+        <br
+      /></label>
+      <br />
+      <button style="background-color: black; border-radius: 5px; color: white">
+        submit
+      </button>
+    </form>
+  </body>
+</html>
